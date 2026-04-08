@@ -77,14 +77,16 @@
   - [Passo 6 – Concluir a instalação do editor](#vscode-passo-6)
   - [Passo 7 – Fechar o prompt do instalador](#vscode-passo-7)
 
-- [🛠️ Configurando o platformio no VSCode](#platformio)
+- [🆕 Configurando o platformio no VSCode](#platformio)
   - [Passo 1 – Abrir a área de extensões do VS Code](#platformio-passo-1)
   - [Passo 2 – Instalar a extensão PlatformIO IDE](#platformio-passo-2)
   - [Passo 3 – Confirmar a extensão carregada no VS Code](#platformio-passo-3)
-  - [Passo 4 – Abrir a PIO Home e iniciar um novo projeto](#platformio-passo-4)
-  - [Passo 5 – Preencher o assistente de criação do projeto](#platformio-passo-5)
-  - [Passo 6 – Aguardar a geração da estrutura PlatformIO](#platformio-passo-6)
-  - [Passo 7 – Conferir os arquivos do projeto criado](#platformio-passo-7)
+
+- [🛠️ Configurando o platformio no VSCode][def]  
+  - [Passo 1 – Abrir a PIO Home e iniciar um novo projeto](#new-platformio-passo-1)
+  - [Passo 2 – Preencher o assistente de criação do projeto](#new-platformio-passo-2)
+  - [Passo 3 – Aguardar a geração da estrutura PlatformIO](#new-platformio-passo-3)
+  - [Passo 4 – Conferir os arquivos do projeto criado](#new-platformio-passo-4)
 
 - [☁️ Fazendo uma publicação do VSCode no github](#github)
   - [Passo 1 – Iniciar a publicação do projeto no GitHub](#github-passo-1)
@@ -846,10 +848,16 @@ Baixe e instale o VS Code conforme o vídeo abaixo:
 2. Verifique se o VS Code reconheceu corretamente a nova extensão.
 3. Caso necessário, reinicie o editor.
 
+</details>
+
 ---
 
-<a id="platformio-passo-4"></a>
-### 🔹 Passo 4 – Abrir a PIO Home e iniciar um novo projeto
+<a id="new-platformio"></a>
+<details close>
+  <summary><strong> 🆕 Criando um novo projeto no PlatformIO </strong></summary>
+
+<a id="new-platformio-passo-1"></a>
+### 🔹 Passo 1 – Abrir a PIO Home e iniciar um novo projeto
 ![fig4](assets/6.platformio/fig04.png)
 
 1. Clique no ícone do **PlatformIO** na barra lateral.
@@ -858,8 +866,8 @@ Baixe e instale o VS Code conforme o vídeo abaixo:
 
 ---
 
-<a id="platformio-passo-5"></a>
-### 🔹 Passo 5 – Preencher o assistente de criação do projeto
+<a id="new-platformio-passo-2"></a>
+### 🔹 Passo 2 – Preencher o assistente de criação do projeto
 ![fig5](assets/6.platformio/fig05.png)
 
 1. Defina o nome do projeto.
@@ -870,8 +878,8 @@ Baixe e instale o VS Code conforme o vídeo abaixo:
 
 ---
 
-<a id="platformio-passo-6"></a>
-### 🔹 Passo 6 – Aguardar a geração da estrutura PlatformIO
+<a id="new-platformio-passo-3"></a>
+### 🔹 Passo 3 – Aguardar a geração da estrutura PlatformIO
 ![fig6](assets/6.platformio/fig06.png)
 
 1. Aguarde o PlatformIO criar as pastas do projeto.
@@ -880,8 +888,8 @@ Baixe e instale o VS Code conforme o vídeo abaixo:
 
 ---
 
-<a id="platformio-passo-7"></a>
-### 🔹 Passo 7 – Conferir os arquivos do projeto criado
+<a id="new-platformio-passo-4"></a>
+### 🔹 Passo 4 – Conferir os arquivos do projeto criado
 ![fig7](assets/6.platformio/fig07.png)
 
 1. Verifique se foram criadas pastas como `src`, `include`, `lib` e o arquivo `platformio.ini`.
@@ -1130,3 +1138,6 @@ Ao final deste procedimento, espera-se que você tenha:
 - com0com: https://sourceforge.net/projects/com0com/
 
 </details>
+
+
+[def]: #new-platformio
