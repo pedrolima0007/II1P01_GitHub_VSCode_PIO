@@ -1143,13 +1143,16 @@ Baixe e instale o VS Code conforme o vídeo abaixo:
 platform = espressif32
 board = esp32-s3-devkitc-1
 framework = arduino
-upload_protocol = esptool
+
 monitor_speed = 115200
-build_flags = -DARDUINO_USB_CDC_ON_BOOT=1 -DARDUINO_USB_MODE=1
+upload_protocol = esptool
+debug_tool = esp-builtin
 
-lib_deps = 
-
+build_flags =
+    -D ARDUINO_USB_MODE=1
+    -D ARDUINO_USB_CDC_ON_BOOT=1
 build_src_filter = +<main.cpp>
+lib_deps = 
 
 ```
 
